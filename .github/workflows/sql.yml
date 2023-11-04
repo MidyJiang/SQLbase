@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Trial run
-      run: ping  172.16.27.188
+      run: ping  192.168.157.16
     # - name: Set up Python
     #   uses: actions/setup-python@v2
     #   with:
