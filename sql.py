@@ -18,4 +18,4 @@ if conn:
 cursor.execute("SELECT * FROM send")
 result=cursor.fetchall()
 print(len(result))
-print("all done,len dataframe result=[{}]".format(len(result))
+print("all done,len dataframe result=[{}]".format(len(result)))
