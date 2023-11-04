@@ -1,8 +1,11 @@
 name: sql try
+
 on:
   push:
-    branches-ignore:
-      - main
+    branches:
+      - main  # 分支名称
+      
+
 
 jobs:
   build:
